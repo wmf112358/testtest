@@ -1,0 +1,47 @@
+怎么在python中安装PyQt5
+
+GitHub Copilot
+在 Python 中安装 PyQt5，可以使用以下命令通过 pip 安装：
+pip install PyQt5
+
+如果需要安装与 PyQt5 配套的工具（如 Qt Designer），可以使用以下命令：
+pip install PyQt5-tools
+
+安装完成后，你可以通过以下命令验证是否安装成功：
+python -c "from PyQt5.QtWidgets import QApplication; print('PyQt5 installed successfully')"
+
+
+下記のエラーが出ました
+
+
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1131)'))': /packages/4f/fc/7d44e8f83eded93fa1517d8354529b7a21cae5d93c26e1681fd7e4bcbb2b/PyQt5_sip-12.15.0-cp38-cp38-win_amd64.whl.metadata WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1131)'))': /packages/4f/fc/7d44e8f83eded93fa1517d8354529b7a21cae5d93c26e1681fd7e4bcbb2b/PyQt5_sip-12.15.0-cp38-cp38-win_amd64.whl.metadata WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1131)'))': /packages/4f/fc/7d44e8f83eded93fa1517d8354529b7a21cae5d93c26e1681fd7e4bcbb2b/PyQt5_sip-12.15.0-cp38-cp38-win_amd64.whl.metadata WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1131)'))': /packages/4f/fc/7d44e8f83eded93fa1517d8354529b7a21cae5d93c26e1681fd7e4bcbb2b/PyQt5_sip-12.15.0-cp38-cp38-win_amd64.whl.metadata WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1131)'))': /packages/4f/fc/7d44e8f83eded93fa1517d8354529b7a21cae5d93c26e1681fd7e4bcbb2b/PyQt5_sip-12.15.0-cp38-cp38-win_amd64.whl.metadata ERROR: Could not install packages due to an OSError: HTTPSConnectionPool(host='files.pythonhosted.org', port=443): Max retries exceeded with url: /packages/4f/fc/7d44e8f83eded93fa1517d8354529b7a21cae5d93c26e1681fd7e4bcbb2b/PyQt5_sip-12.15.0-cp38-cp38-win_amd64.whl.metadata (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1131)')))
+
+PyQt5導入の時に、上記のエラーが出ました。
+上記のエラーを入力して、エラーの解消方法を教えてください
+
+回答が下記の通りです
+
+这个错误是由于 SSL 证书验证失败导致的，以下是解决方法：
+
+1. 忽略 SSL 验证
+尝试通过添加 --trusted-host 参数忽略 SSL 验证：
+pip install PyQt5 --trusted-host pypi.org --trusted-host files.pythonhosted.org
+
+2. 升级 pip 和 certifi
+升级 pip 和 certifi（Python 的证书包），以确保使用最新的证书：
+python -m pip install --upgrade pip
+python -m pip install --upgrade certifi
+
+错误信息：
+
+
+File "c:\SMART案件\ツール修正\ACP報告書作成\00_ItaReportCreate\source\home.py", line 3, in from GUI.mainWindow import MainWindow File "c:\SMART案件\ツール修正\ACP報告書作成\00_ItaReportCreate\source\GUI\mainWindow.py", line 8, in from GUI.infoEditPage import InfoEditPage File "c:\SMART案件\ツール修正\ACP報告書作成\00_ItaReportCreate\source\GUI\infoEditPage.py", line 10, in from commond import ExtractHeaderThread File "c:\SMART案件\ツール修正\ACP報告書作成\00_ItaReportCreate\source\commond.py", line 10, in from lark import Lark, UnexpectedInput ModuleNotFoundError: No module named 'lark' 错误信息
+
+错误信息表明你的 Python 环境中没有安装 lark 模块。以下是解决方法：
+1. 安装 lark-parser
+运行以下命令安装 lark-parser：
+pip install lark-parser
+如果你有多个 Python 版本，请确保使用正确的 pip，例如：
+python -m pip install lark-parser
+
+

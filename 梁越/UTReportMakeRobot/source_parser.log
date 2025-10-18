@@ -1,0 +1,218 @@
+2025-10-07 15:43:22,124 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-07 15:43:22,125 - INFO - 成功加载语法文件 grammar.py
+2025-10-07 15:43:22,139 - ERROR - 解析过程中发生错误: Unexpected input at line 1 column 1 in <string>: 
+
+__package__ = "grammar"
+^
+
+2025-10-07 15:43:22,140 - ERROR - 解析失败
+2025-10-07 15:45:33,528 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-07 15:45:33,529 - INFO - 成功加载语法文件 grammar.py
+2025-10-07 15:45:33,544 - ERROR - 解析过程中发生错误: Unexpected input at line 1 column 9 in <string>: 
+
+grammar = r"""
+        ^
+
+2025-10-07 15:45:33,546 - ERROR - 解析失败
+2025-10-07 15:47:22,571 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-07 15:47:22,572 - INFO - 成功加载语法文件 grammar.py
+2025-10-07 15:47:22,586 - ERROR - 解析过程中发生错误: Unexpected input at line 1 column 1 in <string>: 
+
+__package__ = "grammar"
+^
+
+2025-10-07 15:47:22,587 - ERROR - 解析失败
+2025-10-07 15:49:50,757 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-07 15:49:50,758 - INFO - 成功加载语法文件 grammar.py
+2025-10-07 15:49:50,772 - ERROR - 解析过程中发生错误: Unexpected input at line 1 column 1 in <string>: 
+
+__package__ = "grammar"
+^
+
+2025-10-07 15:49:50,773 - ERROR - 解析失败
+2025-10-07 15:51:05,484 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-07 15:51:05,485 - INFO - 成功加载语法文件 grammar.py
+2025-10-07 15:51:05,499 - ERROR - 解析过程中发生错误: Unexpected input at line 1 column 9 in <string>: 
+
+grammar = r"""
+        ^
+
+2025-10-07 15:51:05,500 - ERROR - 解析失败
+2025-10-07 15:51:30,871 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-07 15:51:30,872 - INFO - 成功加载语法文件 grammar.py
+2025-10-07 15:51:30,886 - ERROR - 解析过程中发生错误: Unexpected input at line 1 column 9 in <string>: 
+
+grammar = """
+        ^
+
+2025-10-07 15:51:30,887 - ERROR - 解析失败
+2025-10-07 15:51:43,072 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-07 15:51:43,073 - INFO - 成功加载语法文件 grammar.py
+2025-10-07 15:51:43,088 - ERROR - 解析过程中发生错误: Unexpected input at line 1 column 9 in <string>: 
+
+grammar = """
+        ^
+
+2025-10-07 15:51:43,090 - ERROR - 解析失败
+2025-10-07 15:53:06,277 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-07 15:53:06,278 - INFO - 成功加载语法文件 grammar.py
+2025-10-07 15:53:06,293 - ERROR - 解析过程中发生错误: Unexpected input at line 1 column 9 in <string>: 
+
+grammar = """
+        ^
+
+2025-10-07 15:53:06,295 - ERROR - 解析失败
+2025-10-07 16:24:34,591 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-07 16:24:34,593 - INFO - 成功加载语法文件 grammar.py
+2025-10-07 16:24:34,615 - ERROR - 解析过程中发生错误: Unexpected input at line 1 column 9 in <string>: 
+
+grammar = """
+        ^
+
+2025-10-07 16:24:34,616 - ERROR - 解析失败
+2025-10-07 16:25:59,029 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-07 16:25:59,031 - ERROR - 解析过程中发生错误: 'shift_jis' codec can't decode byte 0x81 in position 503: illegal multibyte sequence
+2025-10-07 16:25:59,032 - ERROR - 解析失败
+2025-10-07 16:26:40,182 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-07 16:26:40,183 - INFO - 成功加载语法文件 grammar.py
+2025-10-07 16:26:40,199 - ERROR - 解析过程中发生错误: Unexpected input at line 1 column 9 in <string>: 
+
+grammar = """
+        ^
+
+2025-10-07 16:26:40,200 - ERROR - 解析失败
+2025-10-08 00:29:40,928 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 00:29:40,929 - INFO - 成功加载语法文件 grammar.py
+2025-10-08 00:29:40,943 - ERROR - 解析过程中发生错误: Expecting rule or terminal definition (missing colon), at line 1 column 6
+
+from lark import Lark, Transformer, exception
+     ^
+
+2025-10-08 00:29:40,944 - ERROR - 解析失败
+2025-10-08 00:30:18,490 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 00:30:18,491 - INFO - 成功加载语法文件 grammar.py
+2025-10-08 00:30:18,505 - ERROR - 解析过程中发生错误: Expecting rule or terminal definition (missing colon), at line 1 column 6
+
+from lark import Lark, Transformer, exception
+     ^
+
+2025-10-08 00:30:18,506 - ERROR - 解析失败
+2025-10-08 00:52:01,676 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 00:52:01,677 - INFO - 成功加载语法文件 grammar.py
+2025-10-08 00:52:01,692 - ERROR - 解析过程中发生错误: Expecting rule or terminal definition (missing colon), at line 1 column 6
+
+from lark import Lark, Transformer, exception
+     ^
+
+2025-10-08 00:52:01,693 - ERROR - 解析失败
+2025-10-08 01:00:08,249 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 01:00:08,250 - INFO - 成功加载语法文件 grammar.py
+2025-10-08 01:00:08,264 - ERROR - 解析过程中发生错误: Expecting rule or terminal definition (missing colon), at line 1 column 6
+
+from lark import Lark, Transformer, exception
+     ^
+
+2025-10-08 01:00:08,265 - ERROR - 解析失败
+2025-10-08 01:00:29,107 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 01:00:29,109 - INFO - 成功加载语法文件 grammar.py
+2025-10-08 01:00:29,123 - ERROR - 解析过程中发生错误: Unexpected input at line 2 column 9 in <string>: 
+
+grammar = r"""
+        ^
+
+2025-10-08 01:00:29,124 - ERROR - 解析失败
+2025-10-08 01:00:46,677 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 01:00:46,678 - INFO - 成功加载语法文件 grammar.py
+2025-10-08 01:00:46,692 - ERROR - 解析过程中发生错误: Unexpected input at line 2 column 9 in <string>: 
+
+grammar = """
+        ^
+
+2025-10-08 01:00:46,693 - ERROR - 解析失败
+2025-10-08 01:15:57,941 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 01:15:57,942 - INFO - 成功加载语法文件 grammar.py
+2025-10-08 01:15:57,956 - ERROR - 解析过程中发生错误: Unexpected input at line 1 column 9 in <string>: 
+
+grammar = """
+        ^
+
+2025-10-08 01:15:57,957 - ERROR - 解析失败
+2025-10-08 01:27:57,615 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 01:27:57,616 - INFO - 成功加载语法文件 grammar.py
+2025-10-08 01:27:57,630 - ERROR - 解析过程中发生错误: Unexpected input at line 1 column 9 in <string>: 
+
+grammar = """
+        ^
+
+2025-10-08 01:27:57,631 - ERROR - 解析失败
+2025-10-08 01:29:38,636 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 01:29:38,637 - INFO - 成功加载语法文件 grammar.py
+2025-10-08 01:29:38,651 - ERROR - 解析过程中发生错误: Unexpected input at line 1 column 1 in <string>: 
+
+__package__ = "grammar"
+^
+
+2025-10-08 01:29:38,652 - ERROR - 解析失败
+2025-10-08 01:30:09,723 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 01:30:09,725 - ERROR - 解析过程中发生错误: 'shift_jis' codec can't decode byte 0x81 in position 516: illegal multibyte sequence
+2025-10-08 01:30:09,725 - ERROR - 解析失败
+2025-10-08 01:37:01,027 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 01:37:01,044 - ERROR - 解析过程中发生错误: Unexpected input at line 52 column 1 in <string>: 
+
+#マクロ调用
+^
+
+2025-10-08 01:37:01,045 - ERROR - 解析失败
+2025-10-08 01:37:33,269 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 01:37:33,286 - ERROR - 解析过程中发生错误: Unexpected input at line 52 column 1 in <string>: 
+
+#マクロ调用
+^
+
+2025-10-08 01:37:33,287 - ERROR - 解析失败
+2025-10-08 02:42:40,182 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 02:42:40,199 - ERROR - 解析过程中发生错误: Unexpected input at line 52 column 1 in <string>: 
+
+#マクロ调用
+^
+
+2025-10-08 02:43:18,980 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 02:43:18,997 - ERROR - 解析过程中发生错误: Unexpected input at line 52 column 1 in <string>: 
+
+#マクロ调用
+^
+
+2025-10-08 02:44:17,856 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 02:44:17,872 - ERROR - 解析过程中发生错误: Unexpected input at line 52 column 1 in <string>: 
+
+# マクロ调用
+^
+
+2025-10-08 02:47:39,583 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 02:47:39,599 - ERROR - 解析过程中发生错误: Unexpected input at line 52 column 1 in <string>: 
+
+# マクロ调用
+^
+
+2025-10-08 02:50:04,291 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 02:50:04,308 - ERROR - 解析过程中发生错误: Unexpected input at line 52 column 1 in <string>: 
+
+# マクロ调用
+^
+
+2025-10-08 02:50:04,309 - ERROR - 未能读取源文件内容，无法提供上下文信息
+2025-10-08 02:50:04,309 - ERROR - 解析失败
+2025-10-08 02:52:36,345 - INFO - 开始解析文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 02:52:36,437 - INFO - 解析器初始化完成
+2025-10-08 02:52:36,459 - INFO - 成功读取源文件: C:\Users\9512601\Desktop\0920\IPOソース参照\MAET8600.ipo
+2025-10-08 02:52:36,460 - INFO - 开始解析源文件...
+2025-10-08 02:52:36,465 - ERROR - 解析过程中发生错误: Unexpected token Token('IDENTIFIER', 'DIVISION') at line 1, column 30.
+Expected one of: 
+	* ARITHMETIC_OP
+	* COLON
+	* "→"
+	* SECTION
+Previous tokens: [Token('IDENTIFIER', 'IDENTIFICATION')]
+
+2025-10-08 02:52:36,467 - ERROR - 错误位置上下文:  FD HAEW25W
+2025-10-08 02:52:36,467 - ERROR - 解析失败

@@ -1,0 +1,59 @@
+from flask import Flask, request, render_template_string, send_file
+from openpyxl import load_workbook
+import datetime
+import shutil
+ 
+app = Flask(__name__)
+ 
+ 
+@app.route("/", methods=["GET"])
+def index():
+    return render_template_string(form_html)
+ 
+@app.route("/generate", methods=["POST"])
+def generate_excel():
+    # 获取所有输入的用例（name 相同会返回列表）
+    case_ids = request.form.getlist("case_id")
+    contents = request.form.getlist("content")
+    results = request.form.getlist("result")
+ 
+    cases = []
+    for i in range(len(case_ids)):
+        cases.append({
+            "id": case_ids[i],
+            "content": contents[i],
+            "result": results[i]
+        })
+ 
+    # 用模板生成报告
+    template_file = "template.xlsx"
+    output_file = "test_report.xlsx"
+    shutil.copy(template_file, output_file)
+ 
+    wb = load_workbook(output_file)
+    ws = wb.active
+ 
+    start_row = 10  # 模板里第一条用例所在行
+ 
+    for i, case in enumerate(cases):
+        row = start_row + i
+        if i > 0:  
+            # 插入新行并复制上一行的格式
+            ws.insert_rows(row)
+            for col in range(1, ws.max_column + 1):
+                new_cell = ws.cell(row=row, column=col)
+                old_cell = ws.cell(row=row - 1, column=col)
+                if old_cell.has_style:
+                    new_cell._style = old_cell._style
+ 
+        # 填写用例数据
+        ws[f"C{row}"] = case["id"]
+        ws[f"D{row}"] = case["content"]
+        ws[f"Z{row}"] = case["result"]
+ 
+ 
+wb.save(output_file)
+    return send_file(output_file, as_attachment=True, download_name=output_file)
+ 
+if __name__ == "__main__":
+app.run(debug=True)
